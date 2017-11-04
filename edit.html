@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Ajouter un utilisateur</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+ <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+ <!-- Bulma Version 0.6.0 -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css" integrity="sha256-HEtF7HLJZSC3Le1HcsWbz1hDYFPZCqDhZa9QsCgVUdw=" crossorigin="anonymous" />
+ <link rel="stylesheet" type="text/css" href="style.css">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+ <link rel="stylesheet" type="text/css" href="https://npmcdn.com/flatpickr/dist/themes/material_green.css">
+
+</head>
+
+<body>
+
+ <!-- START NAV -->
+ <nav class="navbar is-white">
+  <div class="container">
+   <div class="navbar-brand">
+    <a class="navbar-item brand-text" href="liste.html">
+     <div class="img">
+
+
+      <img class="" src="logo.png" alt="">
+     </div>
+    </a>
+    <div class="navbar-burger burger" data-target="navMenu">
+     <span></span>
+     <span></span>
+     <span></span>
+    </div>
+   </div>
+   <div id="navMenu" class="navbar-menu">
+    <div class="navbar-start">
+     <a class="navbar-item" href="liste.html">
+             Recherche personne
+          </a>
+     <a class="navbar-item" href="index.html">
+            Se deconnecter
+          </a>
+    </div>
+
+
+   </div>
+  </div>
+ </nav>
+ <!-- END NAV -->
+ <div class="container">
+  <div class="columns">
+   <div class="column">
+
+    <div class="card events-card">
+     <header class="card-header">
+      <p class="card-header-title">
+       Mettre à jour un utilisateur
+      </p>
+     </header>
+     <div class="card-content">
+      <div class="content">
+
+
+        <div class="field">
+          <label class="label">Nom:</label>
+          <div class="control has-icons-left">
+            <input class="input" type="text" placeholder="Indiquer le nom">
+            <span class="icon is-small is-left">
+              <i class="fa fa-user"></i>
+            </span>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Prénom:</label>
+          <div class="control has-icons-left">
+            <input class="input" type="text" placeholder="Indiquer le prénom">
+            <span class="icon is-small is-left">
+              <i class="fa fa-user"></i>
+            </span>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Numéro de tel:</label>
+          <div class="control has-icons-left">
+            <input class="input" type="text" placeholder="Indiquer le nom">
+            <span class="icon is-small is-left">
+              <i class="fa fa-phone"></i>
+            </span>
+          </div>
+        </div>
+
+
+       </div>
+
+       <a class="button is-success">Valider</a>
+
+
+
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+ <script async type="text/javascript" src="script.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+</body>
+
+</html>
